@@ -1,0 +1,227 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-hearder{
+    width: 100%;
+}
+.upper-hearder{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 15px;
+}
+.up-hearder1 strong{
+    margin-top: 0px;
+    font-size: 1em;
+}
+.up-hearder2 strong{
+    margin-top: 0px;
+    font-size: 1rem;
+}
+.lower-hearder{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #f0f0f0;
+}
+.lo-hearder1 {
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.lo-hearder1 button{
+    margin-left: 30% ;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 1px 15px #f0f0f0;
+    background-color: #ffffff;
+}
+.lo-hearder2{
+    padding-top: 10px;
+}
+.lo-hearder2 button{
+    border-radius: 100px;
+    max-height: 200px;
+    border: none;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: rgba(228, 27, 0, 0.983);
+}
+.main-body{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    gap: 1rem;
+}
+.main-container1{
+    gap: 3px;
+    width: 50%;
+    height: 600px;
+}
+.main-container2{
+    width: 50%;
+    height: 600px;
+}
+.side{
+    display: flex;
+    gap: 10px;
+}
+.sidebar{
+    width: 10%;
+    height: 600px;
+}
+.icon{
+    background-color: rgb(224, 224, 224);
+    border-radius: 2px;
+    text-align: center;
+}
+.box .fa-image{
+    padding-right: 10px;
+}
+.box-area{
+    width: 90%;
+}
+.navbar{
+    display: flex ;
+    gap: 3px;
+    height: 10px;
+}
+.circle1{
+   background-color: rgb(224, 224, 224);
+    border-radius: 20px;
+    width: 10px;
+}
+.circle2{
+   background-color: rgb(224, 224, 224);
+    border-radius: 20px;
+    width: 10px;
+}
+.circle3{
+   background-color: rgb(224, 224, 224);
+    border-radius: 20px;
+    width: 10px;
+}
+.text-area{
+    background-color: rgb(224, 224, 224);
+    border-radius: 5px;
+    height: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.area{
+    border: 2px gray dotted;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+}
+.component1{
+    margin-top: 100px;
+    height: 50px;
+    border-radius: 300px;
+}
+.component1 input{
+    color: rgb(224, 224, 224);
+    border: 1px solid rgb(224, 224, 224);
+    display: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.component2{
+    margin-top: 50px;
+}
+.component3{
+    margin-top: 60px;
+}
+.component3 span{
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.btn{
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btn-center{
+    margin-top: 20px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 50px;
+    height: 50px;
+}
+.btn-center button{
+    border: none;
+    font-size: 1rem;
+    margin-top: 15px;
+    background-color: rgb(224, 224, 224);
+}
+.btn-select{
+    float: right;
+}
+.btn-select select{
+    height: 40px;
+    padding-right: 100px;
+    border-radius: 10px;
+     border: 1px solid  rgb(224, 224, 224);
+     color: rgb(224, 224, 224);
+}
+.title{
+    margin-top: 40px;
+}
+.title h1{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.title input{
+    width: 100%;
+    outline: none;
+    height: 30px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid  rgb(224, 224, 224);
+    color: rgb(224, 224, 224);
+}
+.area-description{
+    margin-top: 20px;
+}
+.area-description h1{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.area-description textarea{
+    border-radius: 10px;
+    border: 1px solid  rgb(224, 224, 224);
+    color: rgb(224, 224, 224);
+    font-size: 0.9rem;
+    padding-left: 15px;
+}
+.add-text{
+    margin-top: 30px;
+}
+.add-text button{
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(224, 224, 224);
+}
+.destination-link{
+    margin-top: 50px;
+}
+.destination-link h1{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.destination-link input{
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid  rgb(224, 224, 224);
+    color: rgb(224, 224, 224);
+}

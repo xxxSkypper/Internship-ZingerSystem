@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-header{
+    position: relative;
+     background: url("../assets/image  (3).png") top center no-repeat;
+     background-size: cover;
+     background-position: 100%;
+    height:calc(40vh + 50px);
+}
+.bg-header::before,
+.bg-header::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom:0;
+}
+.bg-header::before{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #0d1022d5;
+}
+.bg-header .header{
+    position: absolute;
+    z-index: 1;
+    left: 35%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 2rem;
+    padding-top: calc(50vh - 150px);
+    color: #ffffff;
+}

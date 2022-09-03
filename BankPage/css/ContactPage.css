@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.information{
+    width: 50%;
+    margin: auto;
+    padding-top: 10rem;
+    display: flex;
+    gap: 5rem;
+}
+.information h5{
+    padding-top: 2rem;
+}
+.information h1{
+    color: rgb(35, 1, 90);
+}
+.box-info1 .split{
+    display: flex;
+    gap: 1rem;
+}
+.split .split-input{
+    background-color: #ffffff;
+}
+.box-info1 .input .input-text{
+    background-color: #ffffff;
+}
+.box-info1 .input .input-text2{
+    background-color: #ffffff;
+}
+
+/* MAP */
+.map{
+    width: 100%;
+    margin-top: 8rem;
+}
+.map img{
+    width: 100%;
+}

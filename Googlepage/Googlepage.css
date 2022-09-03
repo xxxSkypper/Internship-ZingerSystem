@@ -1,0 +1,130 @@
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+width: 100vw;
+margin:auto;
+
+
+}
+#main-nav{
+    text-align: right;
+}
+#main-nav p a{
+    color: rgba(33, 31, 31, 0.757);
+    font-size: 14px;
+    font-weight: lighter;
+    margin-right: 20px;
+    text-decoration: none;
+}
+#main-nav a button{
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+  background-color: rgba(0, 66, 246, 0.865); 
+  color: #ffffff; 
+}
+
+.header{
+    margin: 30px;
+    font-size: 100px;
+}
+
+.main-container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+.main-container input{
+    min-width: 25em;
+    line-height: 30px;
+}
+
+.inputs{
+    border: 1px solid lightblue;
+    border-radius: 50px;
+    width: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+
+}
+.inputs input{
+    outline: none;
+    border: none;
+    width: 80% ;
+}
+.info{
+   margin-top: 80px;
+   text-align: center;
+}
+.info p button{
+    margin: 2px;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgba(247, 250, 250, 0.967);
+}
+.translate-language{
+    margin-top: 20px;
+    text-align: center;
+}
+.translate-language p a{
+    text-decoration: none;
+}
+#footers{
+    background-color: rgba(234, 234, 234, 0.918);
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+}
+.para1{
+    padding-left: 30px;
+    color: grey;
+    border-bottom: 1px solid rgb(192, 190, 190);
+}
+.para2{
+    padding-left: 30px;
+    color: grey;
+}
+.para2 p a{
+    color: grey;
+    margin: auto;
+    text-decoration: none;
+    justify-content: space-between;
+    
+}
+.para2 .shift-right{
+    margin-right: 950px;
+}
+@media(max-width:502px){
+    .inputs{
+        width: 380px;
+    }
+    .inputs input{
+      width: 40% ;
+    }
+}
+@media(max-width:450px){
+    .inputs{
+        width: 378px;
+    }
+    .inputs input{
+        width: 20%;
+    }
+}
+/* @media(max-width:430px){
+    .inputs input{
+        width: 338px;
+       
+    }
+}
+@media(max-width:380px){
+    .inputs{
+        width: 330px;
+        background-color: yellow;
+    }
+}  */
+
+
+
+

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-headerservices{
+    position: relative;
+     background: url("../assets/image  (21).png") top center no-repeat;
+     background-size: cover;
+     background-position: 100%;
+    height:calc(40vh + 50px);
+}
+.bg-headerservices::before,
+.bg-headerservices::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom:0;
+}
+.bg-headerservices::before{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #aaa7a7ce;
+}
+.bg-headerservices .header{
+    position: absolute;
+    z-index: 1;
+    left: 40.5%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 2rem;
+    padding-top: calc(50vh - 150px);
+    color: #ffffff;
+}
+/* PERSONAL LOAN */
+.container-loan{
+    width: 50%;
+    margin: auto;
+    padding-top: 10rem;
+}
+.header-para h1{
+    padding-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+.header-para p{
+    padding-top: 2rem;
+    line-height: 1.5rem;
+}
+.header-para hr{
+    background-image: linear-gradient(-210deg, #040341,#2088ff);
+    height: 0.14rem;
+    width: 10.98rem;
+}
+.card{
+    margin-top: 3rem;
+}
+ .feature-header{
+    font-size: 1.5rem;
+}
+.split-card{
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    display: flex;
+    gap: 3rem;
+    height: 7rem;
+    line-height: 1.9rem;
+    margin-top: 1.5rem;
+    padding-left: 3.5rem;
+    background-color: rgba(228, 246, 249, 0.443);
+}
+.split-card::before,
+.split-card::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 95%;
+    width: 7px;
+}
+.split-card::before{
+    background-color: rgb(60, 1, 137);
+    border-radius: 5px 0px 0px 5px;
+    top: 0;
+    bottom: 0;
+}
+.split-container{
+    display: flex;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.split-container .feature-header{
+    padding-bottom: 2rem;
+}
+.split-container li{
+    list-style: none;
+}
+.split-container li p i{
+    padding-right: 0.5rem;
+}
+.split-container p{
+    line-height: 1.5rem;
+}
+.split-container li i{
+    font-size: 0.5rem;
+    color: rgb(60, 1, 137);
+}
+.interest-header{
+    margin-top: 2rem;
+}
